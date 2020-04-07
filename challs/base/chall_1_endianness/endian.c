@@ -8,7 +8,7 @@ int main() {
      * Um ponteiro para caractére.
      * &a = posição de memória em que a está.
      */
-    char* pointer = &a;
+    char* pointer = (char*) &a;
     
     /*
      * Levando em conta que um inteiro tem 4 bytes na maioria dos sistemas,
